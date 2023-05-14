@@ -1,3 +1,7 @@
+/* The instructions below uses the memory operation LDA to load a byte of memory and then use STA to Store the value into the memory address specified 
+The instruction will change the specified memory address into the corresponding hexadecimal value
+*/
+
 LDA #$01
 STA $0200
 LDA #$02
