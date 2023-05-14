@@ -1,0 +1,12 @@
+LDA #$01
+STA $0200
+LDA #$02
+STA $0201
+LDA #$0f
+STA $0202
+LDA #$03
+STA $05ff
+LDA #$ff
+STA $050f
+LDA #$07
+STA $0500
